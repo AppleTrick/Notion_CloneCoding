@@ -1,0 +1,48 @@
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav_logo{
+    display: inline;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_logo a {
+    text-decoration: none;
+}
+
+
+/* 메뉴부분 시작 */
+.nav_menu {
+    float: right;
+    display: inline;
+}
+
+.nav_menu ul{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* 첫번째 각각 항목 */
+.nav_menu ul a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+/* 두번째 항목 */
+.nav_menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+
+}
+
+
