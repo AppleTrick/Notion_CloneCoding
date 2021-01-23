@@ -1,48 +1,94 @@
-.logo {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body {
+    background-color:#fffefc;
+}
+/* 위에 네비게이션 영역 부분 */
+nav {
+   font-size: 15px;
+   white-space: nowrap;
+   top : 0px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+}
+
+/* 네비게이션 바 부분 */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+}
+/* 좌측 로고 부분 */
+.navbar > .logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    float: left;
+    color: black;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.navbar > .logo > img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    margin-left: 10px;
+    
 }
 
-.nav_logo{
-    display: inline;
-    float: left;
-    padding: 0;
-    margin: 0;
+.navbar > .logo > span {
+   font-size: 16px;
 }
 
-.nav_logo a {
-    text-decoration: none;
+/* 메뉴부분 */
+.navbar-menu {
+  
 }
 
-
-/* 메뉴부분 시작 */
-.nav_menu {
-    float: right;
-    display: inline;
+.navbar .navbar-menu li {
+  display: inline-block;
+  margin-left: 10px;
+  list-style: none;
+  vertical-align: middle;
 }
 
-.nav_menu ul{
-    float: left;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-/* 첫번째 각각 항목 */
-.nav_menu ul a{
-    text-decoration: none;
+.navbar .navbar-menu li a {
     color: black;
-    margin-right: 10px;
-}
-/* 두번째 항목 */
-.nav_menu ul li{
-    float: left;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    margin-right: 10px;
-
+    text-decoration: none;
 }
 
 
+
+/* ==================================
+************main part****************
+===================================== */
+
+main {
+    font-size: 17;
+    color: black;
+
+}
+
+section {
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    margin: 60px auto;
+    background-color: skyblue;
+    
+}
