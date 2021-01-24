@@ -3,6 +3,32 @@
     margin: 0;
     padding: 0;
   }
+
+  h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-size: 74px;
+  }
+
+  h2{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5;
+  }
+
+  h4{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    margin-top: 10px;
+
+  }
   
 
 body {
@@ -85,10 +111,156 @@ main {
 }
 
 section {
+    display: flex;
+    justify-content: center;
     padding-left: 60px;
     padding-right: 60px;
     width: 100%;
     margin: 60px auto;
-    background-color: skyblue;
+    overflow: visible;
+    
+    
     
 }
+
+/* ==================================
+************section 1 part****************
+===================================== */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 > img {
+    width: 500px;
+}
+
+.section1_regist {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset;
+    background: white;
+    cursor: text;
+    height: 36px;
+    margin-right: 8px;
+
+}
+
+.section1_regist > div > input {
+    font-size: inherit;
+    border: none;
+    width: 100%;
+    display: block;
+    resize: none;
+    padding: 0px;
+}
+
+.regist {
+    display: flex;
+    width: 25%;
+    background: rgb(225, 98, 89);
+    border: 1px solid rgb(190, 86, 67);
+    height: 36px;
+    padding: 0 12px 0 12px;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+/* ==================================
+************section 2 part****************
+===================================== */
+
+.section2 {
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f5f1;
+}
+
+.section2 img {
+    width: 940px;
+}
+
+/* ==================================
+************section 3 part****************
+===================================== */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==================================
+************section 4 part****************
+===================================== */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==================================
+************section 5 part****************
+===================================== */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==================================
+************section 6 part****************
+===================================== */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==================================
+************section 7 part****************
+===================================== */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+}
+
