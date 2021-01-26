@@ -13,6 +13,7 @@
     color: rgb(17, 17, 17);
     font-size: 74px;
   }
+  
 
   h2{
     margin-top: 10px;
@@ -23,7 +24,7 @@
     line-height: 1.5;
   }
 
-  h4{
+  h5{
     color: rgba(0, 0, 0, 0.4);
     font-size: 14px;
     margin-top: 10px;
@@ -193,9 +194,45 @@ section {
     justify-content: center;
     flex-direction: column;
     background-color: #f9f5f1;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    margin-top: 60px;
 }
 
-.section2 img {
+
+.section2_img1 img{
+    width: 940px;
+}
+.section2_li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.section2_li > li {
+    list-style: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 15px;
+
+}
+
+.section2_li > li:hover {
+    background-color: rgba(55, 53, 47, 0.08);
+}
+
+.section2_img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2_img2 img {
     width: 940px;
 }
 
@@ -207,20 +244,104 @@ section {
     display: flex;
     flex-direction: column;
     width: 1300px;
-    background-color: chartreuse;
     align-items: center;
     justify-content: center;
+}
+
+.section3 h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    font-size: 38px;
+    letter-spacing: -0.005em;
+}
+
+.section3_bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 60px;
+}
+
+.section3_bottom > div {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.one {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+.two {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+.three{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+.four {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+.five {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+
+.section3_bottom > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section3_bottom > div > div > h4 {
+    margin: 10px 0px;
+    line-height: 1.35;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-size: 22px;
+}
+
+
+.section3_bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section3_bottom ul li{
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0px;
+    padding: 0px;
+}
+
+.section3_bottom img {
+    width: 160px;
+    display: block;
+}
+.section3_bottom li {
+    list-style: none;
 }
 
 /* ==================================
 ************section 4 part****************
 ===================================== */
 
-.section3 {
+.section4 {
     display: flex;
     flex-direction: column;
     width: 1300px;
-    background-color: chartreuse;
     align-items: center;
     justify-content: center;
 }
@@ -229,7 +350,7 @@ section {
 ************section 5 part****************
 ===================================== */
 
-.section3 {
+.section5 {
     display: flex;
     flex-direction: column;
     width: 1300px;
@@ -242,7 +363,7 @@ section {
 ************section 6 part****************
 ===================================== */
 
-.section3 {
+.section6 {
     display: flex;
     flex-direction: column;
     width: 1300px;
@@ -255,7 +376,7 @@ section {
 ************section 7 part****************
 ===================================== */
 
-.section3 {
+.section7 {
     display: flex;
     flex-direction: column;
     width: 1300px;
