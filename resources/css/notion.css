@@ -346,6 +346,125 @@ section {
     justify-content: center;
 }
 
+.section4_header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.section4 h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    font-size: 38px;
+    letter-spacing: -0.005em;
+}
+
+.section4 h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5;
+}
+
+.section4_text h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    font-size: 30px;
+}
+
+.section4_text h4 {
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0px;
+    line-height: 150%;
+    max-width: 550px;
+}
+
+.section4_body_number {
+
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    width: 80px;
+    
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 1;
+    margin-right: 20px;
+}
+
+.section4_text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+.section4_body{
+    display: flex;
+    width: 940px;
+}
+.section4_img1{
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+}
+
+.section4_img1 > img {
+    width: 180px;
+}
+.section4_img2{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    width: 280px;
+}
+
+.section4_img2 > img {
+    height: 24px;
+}
+
+
+.section4_regist {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section4_regist > div > input {
+    font-size: inherit;
+    border: none;
+    width: 100%;
+    display: block;
+    resize: none;
+    padding: 0px;
+}
+
+.section4_body {
+
+}
+
+.section4 video {
+    width: 960px;
+    height: 600px;
+    display: block;
+}
+
+
 /* ==================================
 ************section 5 part****************
 ===================================== */
